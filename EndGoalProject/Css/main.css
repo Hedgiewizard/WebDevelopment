@@ -1,0 +1,121 @@
+/*Base for the whole page*/
+body{
+    background-color: rgb(20, 35, 62);
+    color: rgb(200, 205, 212);
+}
+
+/* Headed Css */
+.header img{
+    width: 15%;
+    padding: 0.5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    color: #c5fafa;
+}
+
+/* Bio CSS */
+.nameAndDate{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.profilePicture{
+    display: flex;
+    /* flex-shrink: 45%; */
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+}
+
+.theWhy{
+    font-size: 20px;
+    color: #c5fafa;
+}
+
+.theText{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    height: 100%;
+    width: auto;
+}
+
+.why{
+    background-color: gray;
+    padding: 0.75rem;
+}
+
+.bio{
+    display: flex;
+    flex-direction: center;
+    padding: 0rem 5rem 2rem 5rem;
+    height: 400px;
+}
+
+/* Badges Css */
+.badges{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0rem 5rem 2rem 5rem; */
+}
+
+.react img{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.vector img{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.angular img{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.NodeJS img{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Exited to Learn Css */
+.exitedToLearn{
+    padding: 0rem 5rem 2rem 5rem;
+}
+
+.expo{
+    background-color: gray;
+    padding: 2rem;
+}
+
+.exited{
+    color: #c5fafa;
+    font-size: 30px;
+}
+
+.what{
+    color: #c5fafa;
+    font-size: 20px;
+}
+
+/* Footer Css */
+.footer{
+    display: flex;
+    justify-content: center;
+}
