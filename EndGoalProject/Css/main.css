@@ -15,25 +15,31 @@ body{
     justify-content: center;
 }
 
+/* Bio CSS */
 .name{
     color: #c5fafa;
 }
 
-/* Bio CSS */
 .nameAndDate{
     display: flex;
     justify-content: space-between;
-    flex-grow: 2;
     font-size: 30px;
-    padding-bottom: 0px;
+}
+
+.nameAndDate{
+    padding-left: 1rem;
+}
+
+.why{
+    padding-left: 1rem;
 }
 
 .profilePicture{
-    display: flex;
-    /* flex-shrink: 45%; */
+    /* display: flex;
     width: 55%;
     height: 100%;
-    display: inline-block;
+    display: inline-block; */
+    flex-shrink: 2;
 }
 
 .theWhy{
@@ -45,6 +51,7 @@ body{
     padding: 0rem 1.5rem 0rem 1.5rem;
     height: 100%;
     width: auto;
+    flex-shrink: 1;
 }
 
 .why{
@@ -58,43 +65,8 @@ body{
     padding: 0rem 5rem 2rem 5rem;
     height: 400px;
 }
-
-/* Badges Css */
-.badges{
-    display: flex;
-    justify-content: space-between;
-    /* padding: 0rem 5rem 2rem 5rem; */
-}
-
-.react img{
-    height: 30%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-.vector img{
-    height: 30%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-.angular img{
-    height: 30%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-.NodeJS img{
-    height: 30%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
 /* Exited to Learn Css */
+
 .exitedToLearn{
     padding: 0rem 5rem 2rem 5rem;
 }

@@ -1,0 +1,58 @@
+/* Badges Css */
+.badges{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem 2rem 5rem;
+    height:17em;
+}
+
+/* .react, .vector, .angular,
+.NodeJS{
+    height:5em;
+} */
+
+.react img{
+    height: 90%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.vector img{
+    height: 90%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.angular img{
+    height: 90%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.NodeJS img{
+    height: 90%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+/* padding: 0rem 5rem 2rem 5rem; */
+figcaption > .img {
+    text-align: center;
+    background-color: black;
+    max-width: 15.3em;
+    /* width:15.30em; */
+    position: relative;
+    top: -20px;
+}
+
+/* Text CSS */
+/* .badgesText{
+    text-align: center;
+    background-color: black;
+    width:15.30em;
+    position: relative;
+    top: -16.35em;
+} */
